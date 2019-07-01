@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/binhpht/CLionProjects/Demo/Parameter.h
+string
+/home/binhpht/CLionProjects/Demo/string
+
+/home/binhpht/CLionProjects/Demo/RegexParameter.cpp
+RegexParameter.h
+/home/binhpht/CLionProjects/Demo/RegexParameter.h
+
+/home/binhpht/CLionProjects/Demo/RegexParameter.h
+Parameter.h
+/home/binhpht/CLionProjects/Demo/Parameter.h
+

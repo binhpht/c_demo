@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Demo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/binhpht/CLionProjects/Demo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/binhpht/CLionProjects/Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/binhpht/CLionProjects/Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/binhpht/CLionProjects/Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/binhpht/CLionProjects/Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/binhpht/CLionProjects/Demo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/binhpht/CLionProjects/Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/binhpht/CLionProjects/Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/binhpht/CLionProjects/Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/binhpht/CLionProjects/Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Demo">
+				<Option output="/home/binhpht/CLionProjects/Demo/cmake-build-debug/Demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/binhpht/CLionProjects/Demo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/binhpht/CLionProjects/Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/binhpht/CLionProjects/Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/binhpht/CLionProjects/Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/binhpht/CLionProjects/Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Demo/fast">
+				<Option output="/home/binhpht/CLionProjects/Demo/cmake-build-debug/Demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/binhpht/CLionProjects/Demo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/binhpht/CLionProjects/Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/binhpht/CLionProjects/Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/binhpht/CLionProjects/Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/binhpht/CLionProjects/Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/binhpht/CLionProjects/Demo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/binhpht/CLionProjects/Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/binhpht/CLionProjects/Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/binhpht/CLionProjects/Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/binhpht/CLionProjects/Demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/binhpht/CLionProjects/Demo/BoolParameter.cpp">
+			<Option target="Demo"/>
+		</Unit>
+		<Unit filename="/home/binhpht/CLionProjects/Demo/BoolParameter.h">
+			<Option target="Demo"/>
+		</Unit>
+		<Unit filename="/home/binhpht/CLionProjects/Demo/Bread.cpp">
+			<Option target="Demo"/>
+		</Unit>
+		<Unit filename="/home/binhpht/CLionProjects/Demo/Bread.h">
+			<Option target="Demo"/>
+		</Unit>
+		<Unit filename="/home/binhpht/CLionProjects/Demo/FoodFactory.cpp">
+			<Option target="Demo"/>
+		</Unit>
+		<Unit filename="/home/binhpht/CLionProjects/Demo/FoodFactory.h">
+			<Option target="Demo"/>
+		</Unit>
+		<Unit filename="/home/binhpht/CLionProjects/Demo/IFood.cpp">
+			<Option target="Demo"/>
+		</Unit>
+		<Unit filename="/home/binhpht/CLionProjects/Demo/IFood.h">
+			<Option target="Demo"/>
+		</Unit>
+		<Unit filename="/home/binhpht/CLionProjects/Demo/NumericParameter.cpp">
+			<Option target="Demo"/>
+		</Unit>
+		<Unit filename="/home/binhpht/CLionProjects/Demo/NumericParameter.h">
+			<Option target="Demo"/>
+		</Unit>
+		<Unit filename="/home/binhpht/CLionProjects/Demo/Parameter.cpp">
+			<Option target="Demo"/>
+		</Unit>
+		<Unit filename="/home/binhpht/CLionProjects/Demo/Parameter.h">
+			<Option target="Demo"/>
+		</Unit>
+		<Unit filename="/home/binhpht/CLionProjects/Demo/RegexParameter.cpp">
+			<Option target="Demo"/>
+		</Unit>
+		<Unit filename="/home/binhpht/CLionProjects/Demo/RegexParameter.h">
+			<Option target="Demo"/>
+		</Unit>
+		<Unit filename="/home/binhpht/CLionProjects/Demo/Rice.cpp">
+			<Option target="Demo"/>
+		</Unit>
+		<Unit filename="/home/binhpht/CLionProjects/Demo/Rice.h">
+			<Option target="Demo"/>
+		</Unit>
+		<Unit filename="/home/binhpht/CLionProjects/Demo/StringParameter.cpp">
+			<Option target="Demo"/>
+		</Unit>
+		<Unit filename="/home/binhpht/CLionProjects/Demo/StringParameter.h">
+			<Option target="Demo"/>
+		</Unit>
+		<Unit filename="/home/binhpht/CLionProjects/Demo/Utils.cpp">
+			<Option target="Demo"/>
+		</Unit>
+		<Unit filename="/home/binhpht/CLionProjects/Demo/Utils.h">
+			<Option target="Demo"/>
+		</Unit>
+		<Unit filename="/home/binhpht/CLionProjects/Demo/main.cpp">
+			<Option target="Demo"/>
+		</Unit>
+		<Unit filename="/home/binhpht/CLionProjects/Demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
